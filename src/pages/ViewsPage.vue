@@ -3,9 +3,7 @@
     <div class="layout-aside">
       <layout-aside></layout-aside>
     </div>
-    <div
-      class="layout-container layout-container-direction layout-container-flex"
-    >
+    <div class="layout-body">
       <div class="layout-header">
         <layout-header></layout-header>
       </div>
@@ -35,36 +33,21 @@ export default {
   height: 100%;
   display: flex;
 }
-.layout-container-direction {
-  flex-direction: column;
-}
-.layout-container-flex {
-  flex: 1;
-}
 .layout-aside {
+  flex-shrink: 0;
   width: 200px;
-  overflow-y: auto;
   overflow-x: hidden;
   background-color: #34495e;
 }
-.layout-aside::-webkit-scrollbar {
-  width: 8px;
-}
-
-.layout-aside::-webkit-scrollbar-thumb {
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
-  background: rgb(33, 50, 66);
-}
-
-.layout-aside::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
-  background: rgb(52, 73, 94);
+.layout-body {
+  flex-shrink: 0;
+  width: calc(100vw - 200px);
+  height: 100%;
 }
 .layout-header {
   height: 80px;
 }
 .layout-main {
-  flex: 1;
-  overflow: hidden;
+  height: calc(100vh - 80px);
 }
 </style>

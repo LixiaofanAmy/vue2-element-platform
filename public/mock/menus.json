@@ -3,7 +3,7 @@
   "data": [
     {
       "node": 1,
-      "nodeName": "安检",
+      "nodeName": "任务",
       "nodeCode": "1",
       "nodeType": 1,
       "parentNode": null,
@@ -24,6 +24,130 @@
           "node": 2,
           "nodeName": "任务明细",
           "nodeCode": "1-2",
+          "nodeType": 2,
+          "menuName": "task-details",
+          "menuIcon": "el-icon-notebook-2",
+          "parentNode": 1,
+          "childNodes": []
+        }
+      ]
+    },
+    {
+      "node": 1,
+      "nodeName": "任务",
+      "nodeCode": "2",
+      "nodeType": 1,
+      "parentNode": null,
+      "menuName": "",
+      "menuIcon": "el-icon-first-aid-kit",
+      "childNodes": [
+        {
+          "node": 1,
+          "nodeName": "任务管理",
+          "nodeCode": "2-1",
+          "nodeType": 2,
+          "menuName": "task-management",
+          "menuIcon": "el-icon-receiving",
+          "parentNode": 1,
+          "childNodes": []
+        },
+        {
+          "node": 2,
+          "nodeName": "任务明细",
+          "nodeCode": "2-2",
+          "nodeType": 2,
+          "menuName": "task-details",
+          "menuIcon": "el-icon-notebook-2",
+          "parentNode": 1,
+          "childNodes": []
+        }
+      ]
+    },
+    {
+      "node": 1,
+      "nodeName": "任务",
+      "nodeCode": "3",
+      "nodeType": 1,
+      "parentNode": null,
+      "menuName": "",
+      "menuIcon": "el-icon-first-aid-kit",
+      "childNodes": [
+        {
+          "node": 1,
+          "nodeName": "任务管理",
+          "nodeCode": "3-1",
+          "nodeType": 2,
+          "menuName": "task-management",
+          "menuIcon": "el-icon-receiving",
+          "parentNode": 1,
+          "childNodes": []
+        },
+        {
+          "node": 2,
+          "nodeName": "任务明细",
+          "nodeCode": "3-2",
+          "nodeType": 2,
+          "menuName": "task-details",
+          "menuIcon": "el-icon-notebook-2",
+          "parentNode": 1,
+          "childNodes": []
+        }
+      ]
+    },
+    {
+      "node": 1,
+      "nodeName": "任务",
+      "nodeCode": "4",
+      "nodeType": 1,
+      "parentNode": null,
+      "menuName": "",
+      "menuIcon": "el-icon-first-aid-kit",
+      "childNodes": [
+        {
+          "node": 1,
+          "nodeName": "任务管理",
+          "nodeCode": "4-1",
+          "nodeType": 2,
+          "menuName": "task-management",
+          "menuIcon": "el-icon-receiving",
+          "parentNode": 1,
+          "childNodes": []
+        },
+        {
+          "node": 2,
+          "nodeName": "任务明细",
+          "nodeCode": "4-2",
+          "nodeType": 2,
+          "menuName": "task-details",
+          "menuIcon": "el-icon-notebook-2",
+          "parentNode": 1,
+          "childNodes": []
+        }
+      ]
+    },
+    {
+      "node": 1,
+      "nodeName": "任务",
+      "nodeCode": "5",
+      "nodeType": 1,
+      "parentNode": null,
+      "menuName": "",
+      "menuIcon": "el-icon-first-aid-kit",
+      "childNodes": [
+        {
+          "node": 1,
+          "nodeName": "任务管理",
+          "nodeCode": "5-1",
+          "nodeType": 2,
+          "menuName": "task-management",
+          "menuIcon": "el-icon-receiving",
+          "parentNode": 1,
+          "childNodes": []
+        },
+        {
+          "node": 2,
+          "nodeName": "任务明细",
+          "nodeCode": "5-2",
           "nodeType": 2,
           "menuName": "task-details",
           "menuIcon": "el-icon-notebook-2",

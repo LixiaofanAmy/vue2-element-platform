@@ -1,6 +1,6 @@
 <template>
   <el-menu
-    class="menu"
+    class="menu-list"
     :router="true"
     :default-active="nodeCode"
     text-color="#99a3ae"
@@ -56,7 +56,9 @@ export default {
 }
 </script>
 <style scoped>
-.menu {
+.menu-list {
+  height: calc(100vh - 80px);
+  overflow: scroll;
   border-right: 0;
 }
 </style>
