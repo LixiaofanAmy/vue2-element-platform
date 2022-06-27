@@ -1,0 +1,36 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "node": 1,
+      "nodeName": "安检",
+      "nodeCode": "1",
+      "nodeType": 1,
+      "parentNode": null,
+      "menuName": "",
+      "menuIcon": "el-icon-first-aid-kit",
+      "childNodes": [
+        {
+          "node": 1,
+          "nodeName": "任务管理",
+          "nodeCode": "1-1",
+          "nodeType": 2,
+          "menuName": "task-management",
+          "menuIcon": "el-icon-receiving",
+          "parentNode": 1,
+          "childNodes": []
+        },
+        {
+          "node": 2,
+          "nodeName": "任务明细",
+          "nodeCode": "1-2",
+          "nodeType": 2,
+          "menuName": "task-details",
+          "menuIcon": "el-icon-notebook-2",
+          "parentNode": 1,
+          "childNodes": []
+        }
+      ]
+    }
+  ]
+}
